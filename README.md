@@ -12,6 +12,24 @@ git clone https://github.com/bananna16/sscp25.git
 
 2. Download the [EDES UKB atlas](https://drive.google.com/file/d/1nGlaEU_l6eJrSsk2DGX7Uqq0DgcDJU31/view?usp=sharing) and move it into `sscp25/Data/`
 
+3. Install the dependencies. Create a virtual environment
+```bash
+python -m venv venv
+```
+Then activate the virtual environment:
+- On Windows:
+```bash
+venv\Scripts\activate
+```
+- On MacOS/Linux:
+```bash
+. venv/bin/activate
+```
+and install the dependencies:
+```bash
+pip install -r requirements.txt
+```
+
 3. Start-up the jupyter notebooks. I use [Visual Studio Code](https://code.visualstudio.com/) to interact with and use the jupyter notebooks. Of course, you can also [launch jupyter notebook through the terminal](https://docs.jupyter.org/en/latest/running.html) and intearct with them on the web browser.
 
 4. Install the necessary imports. For example, `pip install numpy scipy pyvista` etc.
