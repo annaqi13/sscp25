@@ -1,0 +1,8 @@
+jupyter
+numpy
+scipy
+matplotlib
+pandas
+openpyxl
+pyvista[jupyter]
+git+https://github.com/UOA-Heart-Mechanics-Research/biv-me
